@@ -4,4 +4,4 @@ Analysis of the Hepatitis Dataset using R Programming and Excel, and forecasting
 
 ***Project Objective:***
 
-To understand the fundamentals of Machine Learning and Forecasting Analysis, as well as to gain an understanding of R as a programming language
+To understand the fundamentals of Machine Learning and Forecasting Analysis, as well as to gain an understanding of R as a programming language.
