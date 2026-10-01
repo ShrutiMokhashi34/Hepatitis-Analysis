@@ -1,4 +1,4 @@
-# Hepatitis Survival Prediction
+# Prediction Model for Analysis of Hepatitis Dataset for Diagnostic Accuracy
 
 Predicting patient survival from clinical data using a Random Forest model in R,
 with a focus on handling incomplete data before modeling.
