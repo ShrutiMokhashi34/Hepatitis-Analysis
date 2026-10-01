@@ -1,7 +1,19 @@
-***Project Details:***
+# Hepatitis Survival Prediction
 
-Analysis of the Hepatitis Dataset using R Programming and Excel, and forecasting the chances of a patient living or dying based on the severity of their symptoms, using the Random Forest model.
+Predicting patient survival from clinical data using a Random Forest model in R,
+with a focus on handling incomplete data before modeling.
 
-***Project Objective:***
+**Tools:** R (mice, Amelia, randomForest, ggplot2)
 
-To understand the fundamentals of Machine Learning and Forecasting Analysis, as well as to gain an understanding of R as a programming language.
+## Overview
+- **Dataset:** 156 patients, 19 clinical attributes (symptoms and lab values), with a survival outcome.
+- **Data quality:** 48% of patient records had at least one missing value, mostly in lab results. Instead of dropping them, missing values were filled using MICE (Multiple Imputation by Chained Equations).
+- **Modeling:** Trained a Random Forest classifier and ranked all 19 variables by their importance in predicting survival.
+
+## Files
+| File | Description |
+|---|---|
+| `Original data with missing values.csv` | Raw dataset |
+| `Consolidated Data 1.csv` | Dataset after imputation |
+| `hepatitis_random_forest.R` | Imputation and modeling script |
+| `*.jpeg` | Missingness maps, model error plot, variable importance |
